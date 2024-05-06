@@ -40,7 +40,7 @@ const BS_LineChart = () => {
                 <YAxis />
                 <Tooltip />
                 <Line type="monotone" dataKey="Bank" stroke={theme === 'light' ? "#2e2e38" : (theme === 'dark' ? "#8884d8" : null)} activeDot={{ r: 8 }} strokeWidth={2}  />
-                <Line type="monotone" dataKey="Cash" stroke={theme === 'light' ? "#1e432e" : (theme === 'dark' ? "#82ca9d" : null)}activeDot={{ r: 8 }} strokeWidth={2}  />
+                <Line type="monotone" dataKey="Cash" stroke={theme === 'light' ? "#74C578" : (theme === 'dark' ? "#82ca9d" : null)}activeDot={{ r: 8 }} strokeWidth={2}  />
                 <Legend />
             </LineChart>
         </ResponsiveContainer>

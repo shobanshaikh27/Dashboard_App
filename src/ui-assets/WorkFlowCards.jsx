@@ -17,7 +17,7 @@ const WorkFlowCards = () => {
                                 <PersonAddAltOutlinedIcon style={{ fill: '#ffffff' }}  fontSize='large' />
                             </div>
                             <div className='col-span-7 p-4'>
-                                <p className="md:text-xl text-lg font-semibold leading-none tracking-tight whitespace-nowrap overflow-auto">Customer and Supplier</p>
+                                <p className="md:text-lg text-lg font-semibold leading-none tracking-tight whitespace-nowrap overflow-auto">Customer and Supplier</p>
                                 <p className="max-sm:hidden">Add Customer and Supplier</p>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const WorkFlowCards = () => {
                                 <AddShoppingCartIcon style={{ fill: '#ffffff' }} fontSize='large' />
                             </div>
                             <div className='col-span-7 p-4'>
-                                <p className="md:text-xl text-lg font-semibold leading-none tracking-tight">Product/Services</p>
+                                <p className="md:text-lg text-lg font-semibold leading-none tracking-tight">Product/Services</p>
                                 <p className="max-sm:hidden">Add Product/Services</p>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ const WorkFlowCards = () => {
                                 <DescriptionIcon style={{ fill: '#ffffff' }} fontSize='large' />
                             </div>
                             <div className='col-span-7 p-4'>
-                                <p className="md:text-xl text-lg font-semibold leading-none tracking-tight">Sale/Purchase</p>
+                                <p className="md:text-lg text-lg font-semibold leading-none tracking-tight">Sale/Purchase</p>
                                 <p className="max-sm:hidden">Add Sale/Purchase Invoices</p>
                             </div>
                         </div>

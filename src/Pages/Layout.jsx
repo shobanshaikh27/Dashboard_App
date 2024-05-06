@@ -40,15 +40,15 @@ const Layout = () => {
           <Separator />
           <SP_BarChart />
         </div>
-        <div className="lg:col-span-12 md:col-span-7 col-span-full w-full  rounded-xl shadow-xl bg-white  dark:bg-[#020617]">
+        <div className="lg:col-span-12 md:col-span-12 col-span-full w-full  rounded-xl shadow-xl bg-white  dark:bg-[#020617]">
           <div className="dark:text-white p-2 text-lg font-semibold bg-[#172554]  text-white rounded-t-lg mb-1">Bank and Cash Balance</div>
           <Separator />
           <BS_LineChart />
         </div>
-        <div className="lg:col-span-6 md:col-span-5 col-span-full w-full  place-self-center">
+        <div className="lg:col-span-6 md:col-span-6 col-span-full w-full  place-self-center">
           <MvcTable />
         </div>
-        <div className="lg:col-span-6 md:col-span-5 col-span-full w-full  place-self-center">
+        <div className="lg:col-span-6 md:col-span-6 col-span-full w-full  place-self-center">
           <MspTable />
         </div>
       </div>

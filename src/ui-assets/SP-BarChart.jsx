@@ -111,10 +111,10 @@ const SP_BarChart = () => {
                         <Legend />
                         <Bar
                             dataKey="Sales"
-                            fill={theme === 'light' ? "#2e2e38" : (theme === 'dark' ? "#8884d8" : null)}
-                            activeBar={<Rectangle fill={theme === 'dark' ? "#ACC8E5" : "#C6AEAE"} stroke="black" />}
+                            fill={theme === 'light' ? "#353e45" : (theme === 'dark' ? "#8884d8" : null)}
+                            activeBar={<Rectangle fill={theme === 'dark' ? "#3a0054" : "#3a0054"} stroke="none" />}
                         />
-                        <Bar dataKey="Purchase" fill="#82ca9d" activeBar={<Rectangle fill={theme === 'dark' ? "#1F472E" : "blue"} stroke="purple" />} />
+                        <Bar dataKey="Purchase" fill="#83DE87" activeBar={<Rectangle fill={theme === 'dark' ? "#1F472E" : "#66AC69"} stroke="none" />} />
                     </BarChart>
                 </ResponsiveContainer>
             </div>

@@ -8,7 +8,7 @@ const data = [
     { name: 'Sales', value: 149471 },
 ];
 
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
+const COLORS = ['#b83951', '#631d97', '#92f797', '#ff007f'];
 
 const renderActiveShape = (props) => {
     const RADIAN = Math.PI / 180;
